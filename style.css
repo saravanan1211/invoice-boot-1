@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.vwe{
+    background-color: rgb(170, 168, 168);
+     border-radius: 20px;
+      width: 200px;
+      height: 80px;
+}
+.vwe p{
+    font-size: 25px;
+}
+.box{
+    display: flex;
+}
+.bre{
+    border-radius: 20px;
+    margin-top: 100px; 
+    background-color: rgb(241, 241, 241); 
+    width: 100%; 
+    height: 175vh;
+}
+
+@media(max-width:700px){
+    .vwe{
+        width: 100px;
+        height: 50px;
+    }
+    .vwe p{
+        font-size: 15px;
+    }
+    .bill{
+        display: flex;
+        flex-direction: column;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+    .sw{
+       margin: 0 auto;
+    }
+    .bre{
+        height: auto;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .tex{
+        width: 100%;
+        overflow-x: hidden;
+    }
+}
